@@ -8,12 +8,19 @@
 
 import {View, Text, StyleSheet, StatusBar} from 'react-native';
 import React from 'react';
+import Authentiation from './src/screens/Authentication';
+import MainNavigator from './src/navigation/MainNavigator';
 
 const App = () => {
   return (
-      <View style={styles.container}>
+    <>
+      {/* <View style={styles.container}>
         <Text style={styles.text}>React Native Boilerplate</Text>
       </View>
+
+      <Authentiation /> */}
+      <MainNavigator />
+    </>
   );
 };
 
